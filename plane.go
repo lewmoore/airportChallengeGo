@@ -8,5 +8,10 @@ func NewPlane() Plane{
 	return Plane{isLanded: true}
 }
 
+func PlaneTakeOff(plane Plane) bool {
+	plane.isLanded = false
+	return plane.isLanded
+}
+
 func main(){
 }

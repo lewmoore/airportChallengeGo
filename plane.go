@@ -1,11 +1,10 @@
 package main
 
-
 type Plane struct {
 	isLanded bool
 }
 
-func newPlane() Plane{
+func NewPlane() Plane{
 	return Plane{isLanded: true}
 }
 
